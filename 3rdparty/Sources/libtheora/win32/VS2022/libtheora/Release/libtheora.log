@@ -1,0 +1,70 @@
+﻿F:\Visual Studio\2022\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props(24,5): warning MSB4211: a propriedade "MsvcAnalysisPluginPath" está sendo definida para um valor pela primeira vez, mas já foi consumida em "F:\Visual Studio\2022\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)".
+  apiwrapper.c
+  bitpack.c
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(36,34): warning C4554: '>>': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(71,32): warning C4554: '<<': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(73,35): warning C4554: '<<': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(75,36): warning C4554: '<<': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(78,50): warning C4554: '>>': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(82,46): warning C4554: '>>': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(99,36): warning C4554: '>>': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\bitpack.c(112,38): warning C4554: '>>': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+  decapiwrapper.c
+  decinfo.c
+  dequant.c
+  fragment.c
+  huffdec.c
+  info.c
+  internal.c
+  state.c
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\state.c(842,11): warning C4456: a declaração de 'ci' oculta uma declaração local anterior
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\state.c(804,7): message : consulte a declaração de 'ci'
+  mmxfrag.c
+  mmxidct.c
+  mmxloopfilter.c
+  mmxstate.c
+  x86state.c
+  encapiwrapper.c
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1019,30): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1030,16): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1031,61): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1037,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1038,16): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1040,30): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1070,21): warning C4389: '!=': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1071,20): warning C4389: '!=': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1083,21): warning C4389: '==': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1083,50): warning C4389: '==': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1094,23): warning C4018: '>': incompatibilidade de signed/unsigned
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encapiwrapper.c(1094,51): warning C4018: '>': incompatibilidade de signed/unsigned
+  encoder_huffman.c
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encoder_huffman.c(233,9): warning C4456: a declaração de 'ret' oculta uma declaração local anterior
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\enc\encoder_huffman.c(229,8): message : consulte a declaração de 'ret'
+  encoder_idct.c
+  encoder_quant.c
+  decode.c
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\decode.c(700,24): warning C4456: a declaração de 'frag' oculta uma declaração local anterior
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\decode.c(638,16): message : consulte a declaração de 'frag'
+  idct.c
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\idct.c(236,67): warning C4554: '>>': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\lib\dec\idct.c(267,67): warning C4554: '>>': verifique a precedência de operador para possível erro; use parênteses para esclarecer a precedência
+  quant.c
+  blockmap.c
+  dct.c
+  dct_decode.c
+  dct_encode.c
+  dsp.c
+  encode.c
+  encoder_toplevel.c
+  frarray.c
+  frinit.c
+  mcomp.c
+  misc_common.c
+  pb.c
+  pp.c
+  reconstruct.c
+  scan.c
+  dsp_mmx.c
+  fdct_mmx.c
+  recon_mmx.c
+  libtheora.vcxproj -> C:\Users\andre\Downloads\Source Ports\strife-ve-plus\3rdparty\Sources\libtheora\win32\VS2022\Release\libtheora.lib
