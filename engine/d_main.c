@@ -1413,28 +1413,9 @@ static void D_InitFrontend()
 
     if(dofrontend)
     {
-        // [SVE] svillarreal - play nightdive and strife intro movies
-        if(!d_skipmovies)
-        {
-#ifdef WIP
-#ifdef SVE_PLAT_SWITCH
-		   I_AVStartVideoStream("rom://movies/NightDive.ogv");
-		   I_AVStartVideoStream("rom://movies/Strife.ogv");
-#else
-           I_AVStartVideoStream("movies/NightDive.ogv");
-           I_AVStartVideoStream("movies/Strife.ogv");
-#endif
-#endif
-        }
-
         // Edward [SVE]: Signal to the platform that we want to handle quit events
         I_SetupPlatformQuit();
 
-#ifndef SVE_PLAT_SWITCH
-        // [Edward]: Not much use for the frontend on NX for now
-        I_SetCPUHighPerformance(0);
-        FE_StartFrontend(); // returns when user starts the game
-#endif
     }
     else
     {
@@ -2242,9 +2223,6 @@ void D_DoomMain (void)
         DEH_printf("M_Init: Init Menu.\n");
     M_Init ();
     D_IntroTick(); // [STRIFE]
-
-
-    Z_Init();
 
     // haleyjd 20110924: Moved S_Init up.
     D_IntroTick();

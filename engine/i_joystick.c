@@ -43,6 +43,7 @@
 
 // [SVE]: Track whether or not we're seeing joystick events.
 boolean i_seejoysticks;
+
 // When an axis is within the dead zone, it is set to zero.
 // This is 5% of the full range:
 
@@ -235,11 +236,11 @@ void I_InitJoystick(void)
 //
 // I_JoystickAllowed
 //
+
 boolean I_JoystickAllowed(void)
 {
     return usejoystick;
 }
-
 
 //
 // I_QueryNumJoysticks
@@ -780,10 +781,6 @@ void I_UpdateJoystick(void)
     {
         joystick_threshold = 1.0f;
     }
-
-    // [SVE] svillarreal
-    if(gAppServices->OverlayActive())
-        return;
 
     if(controller != NULL)
     {

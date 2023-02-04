@@ -80,8 +80,10 @@ int  I_QueryActiveJoystickNum(void);
 const char *I_QueryJoystickName(int index);
 const char *I_QueryActiveJoystickName(void);
 boolean     I_JoystickAllowed(void);
+
 // [SVE] some bullcrap
 extern boolean i_seejoysticks;
+
 // [SVE] frontend functions
 int I_JoystickGetButtons(void);
 int I_JoystickGetButtonsEvent(void);

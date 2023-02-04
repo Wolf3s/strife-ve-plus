@@ -15,7 +15,7 @@
 //      Theora Video Streaming
 //      Author: Dimitris Giannakis
 //
-#ifdef WIP
+
 #if defined(SVE_USE_THEORAPLAY)
 
 #include "SDL.h"
@@ -1342,5 +1342,4 @@ void I_AVStartVideoStream(const char *fname)
 }
 
 
-#endif
 #endif

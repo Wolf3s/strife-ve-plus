@@ -78,18 +78,13 @@
 //typedef bool boolean;
 
 //#else
-#ifndef _WIN32
+
 typedef enum 
 {
     false, 
     true
 } boolean;
-#else
-#include <stdbool.h>
-#define false 0 
-#define true 1
-typedef bool boolean;
-#endif
+
 //#endif
 
 typedef uint8_t byte;
